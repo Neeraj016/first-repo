@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employ intersest</title>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+       <header> 
+           <h1>Employee interests Survey Form</h1>
+       </header>
+       <form>
+           <label for="name">Enter your Name:</label>
+           <input type="text" placeholder="Full Name" id="name"/><br/><br/>
+           <label for="department">Enter your department:</label>
+           <input type="text" placeholder="department name" id="department"/><br/><br/>
+           <label for="intro">Tell us a little about yorself:</label>
+           <input type="comments" placeholder="introduction" id="intro" /><br/><br/>
+           <label>Do you exercise at home? </label><br/>
+           <input type="radio" id="YESS"/>
+           <label for ="YESS">Yess</label>
+           <input type="radio" id="NO"/>
+           <label for="NO">No</label><br/> <br/>
+           <label> How do you lke to read about your favoirite topics?</label><br/>
+           <input type="checkbox" id ="books"/>
+           <label for="books">Books</label> 
+           <input type="checkbox" id ="online"/>
+           <label for="online">Online resources</label>
+           <input type="checkbox" id ="phone"/>
+           <label for="phone">Phone apps</label>  
+           <input type="checkbox" id ="magazines"/>
+           <label for="magazines">Magazines</label> <br/><br/>
+           What genre of movies do you like?
+           <select name="moviepref">
+               <option>
+                   <option value="action">Action</option>
+                   <option value="thriller">Thriller</option>
+                   <option value="romance">Romance</option>
+                   <option value="sci-fi">Sci-fi</option>
+                   <option value="Comedy">Comedy</option>
+               </option>
+               
+           </select><br/><br/>
+           <input type="submit" name="submit" value="submit"/>
+          
+       </form><br/>
+    
+       <table>
+           <thead>
+               <tr>
+                   <th>Name</th>
+                   <th>Work</th>
+                   <th>Gender</th>
+                   <th>Status</th>
+                   <th>Experience</th>
+               </tr>
+           </thead>
+           <tbody>
+               <tr>
+                   <td>Neeraj</td>
+                   <td>Student</td>
+                   <td>Male</td>
+                   <td>Single</td>
+                   <td>2 years</td>
+               </tr>
+               <tr>
+                <td>Mihir</td>
+                <td>Student</td>
+                <td>Male</td>
+                <td>Single</td>
+                <td>0 years</td>
+         
+            </tr>
+            <tr>
+                <td>Kokila</td>
+                <td>Account</td>
+                <td>Female</td>
+                <td>Married</td>
+                <td>1 years</td>
+         
+            </tr>
+            <tr>
+                <td>Dharmaraj</td>
+                <td>Driver</td>
+                <td>Male</td>
+                <td>Married</td>
+                <td>25 years</td>
+         
+            </tr>
+           </tbody>
+       </table>
+    
+    </body>
+</html>

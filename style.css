@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+    padding: 50px;
+
+}
+
+.image{
+    width: 200px;
+    height: 250px;
+}
+.parent{
+    background-color: chocolate;
+    align-items: center;
+    padding: 20px;
+    width: 270px;
+    height: 670px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+
+} 
+
+button{
+    box-shadow: 5px 5px 5px 1px black;
+    background-color: burlywood; 
+}
+button:hover{
+    cursor: pointer;
+    color: red;
+    background-color:springgreen;
+
+}
