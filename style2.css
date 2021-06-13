@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+    padding: 50px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon{
+height: 130px;
+    align-items: center;
+    padding: 20px;
+    width: 120px;
+    margin: 10px;
+    text-align: center;
+}
+
+.parent{
+    background-color: yellow;
+    margin: 10px;
+   text-align: center;
+   align-items: center;
+   width: 200px;
+   display: inline-block;
+   box-shadow: 2px 2px 5px black;
+}
+
+.child2{
+    background-color: rgb(255, 136, 0);
+}
