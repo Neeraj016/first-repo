@@ -12,24 +12,49 @@ body{
 }
 
 .pokemon{
-height: 130px;
+    height: 130px;
     align-items: center;
-    padding: 20px;
     width: 120px;
     margin: 10px;
     text-align: center;
 }
 
 .parent{
-    background-color: yellow;
-    margin: 10px;
+   margin: 10px;
    text-align: center;
    align-items: center;
    width: 200px;
-   display: inline-block;
    box-shadow: 2px 2px 5px black;
+   display: flex;
+   display: inline-block;
+   
 }
 
 .child2{
     background-color: rgb(255, 136, 0);
+}
+.child1{
+    background-color: yellow;
+}
+
+.child3{
+    background-color: green;
+}
+.child4{
+    background-color:lightblue;
+}
+.child5{
+    background-color: burlywood;
+}
+
+.child6{
+    background-color: pink;
+    
+}
+
+.child7{
+    background-color: rebeccapurple;
+}
+.child8{
+    background-color: wheat;
 }
